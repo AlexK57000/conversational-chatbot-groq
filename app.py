@@ -15,8 +15,7 @@ def main():
     """
     
     # Get Groq API key
-    st.secrets["GROQ_API_KEY"] = "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"
-    api_key = st.secrets["GROQ_API_KEY"]
+    #st.secrets["GROQ_API_KEY"] = "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"
     groq_api_key = st.secrets["GROQ_API_KEY"]
 
     # Display the Groq logo
